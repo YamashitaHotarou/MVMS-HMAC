@@ -8,7 +8,7 @@ In this work, we propose MVMS-HMAC, a novel scheme that effectively addresses th
 
 This repository provides a local simulation of the MVMS-HMAC auditing scheme, implementing the complete protocol workflow in Python. The code models all entities - application vendors, edge servers, and smart contracts - as software objects within a single environment. By excluding network effects, the implementation focuses on measuring computational performance during proof generation and verification phases. This self-contained simulation enables researchers to validate the scheme's efficiency and security properties under various configurations in a reproducible manner.
 
-
+![MVMS_HMAC System Model](mvms-hmac.png)
 
 # Build
 ```
